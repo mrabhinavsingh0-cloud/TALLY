@@ -1,0 +1,120 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tally — Your receipts, sorted</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#">tally<span>.</span></a>
+      <div class="workspace"><strong>Studio North</strong><small>Freelancer workspace</small></div>
+      <p class="nav-label">WORKSPACE</p>
+      <nav class="nav-list">
+        <a class="nav-item active" href="#">◫ &nbsp; Overview</a>
+        <a class="nav-item" href="#">▤ &nbsp; Documents <span class="nav-count">12</span></a>
+        <a class="nav-item" href="#">▥ &nbsp; Reports</a>
+        <a class="nav-item" href="#">♧ &nbsp; Vendors</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="privacy-card"><strong>Your data stays yours</strong><p>AI runs on this device.<br>No uploads. No surprises.</p></div>
+        <a class="nav-item" href="#">⚙ &nbsp; Settings</a>
+        <div class="profile"><div class="avatar">AM</div><div><strong>Alex Morgan</strong><small>Independent designer</small></div></div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumb">Workspace <span>/</span> <strong>Overview</strong></div>
+        <div class="sync-status"><i></i> Local mode</div>
+      </header>
+
+      <section class="welcome">
+        <div>
+          <p class="eyebrow">TUESDAY, OCTOBER 14, 2026</p>
+          <h1>Good morning, Alex <span>✳</span></h1>
+          <p class="welcome-copy">Your paperwork is looking lighter already.</p>
+        </div>
+        <button class="primary-button">＋ Add documents</button>
+      </section>
+
+      <section class="stat-grid">
+        <article class="stat-card">
+          <div class="stat-heading">Documents sorted <span class="stat-icon mint">▤</span></div>
+          <strong>128</strong><p><span class="positive">↑ 18</span> this month</p>
+        </article>
+        <article class="stat-card">
+          <div class="stat-heading">Ready for tax time <span class="stat-icon lilac">✧</span></div>
+          <strong>94%</strong><p>Everything in its place</p>
+          <div class="progress-track"><i></i></div>
+        </article>
+        <article class="stat-card">
+          <div class="stat-heading">Potential deductions <span class="stat-icon peach">⌁</span></div>
+          <strong>$2,840</strong><p>Across 34 documents</p>
+        </article>
+      </section>
+
+      <section class="content-grid">
+        <article class="panel inbox-panel">
+          <div class="panel-heading">
+            <div><p class="eyebrow">YOUR INBOX</p><h2>Needs a quick look <span class="pill">3 new</span></h2></div>
+            <a class="text-link" href="#">View all →</a>
+          </div>
+          <div class="document-list">
+            <div class="document-row">
+              <div class="file-icon pdf">PDF</div><div class="file-info"><strong>September internet bill</strong><span>Acme Fiber · Added 8 min ago</span></div>
+              <div class="file-amount"><strong>$89.00</strong><span>Utilities</span></div><span class="review-tag">Review</span>
+            </div>
+            <div class="document-row">
+              <div class="file-icon jpg">JPG</div><div class="file-info"><strong>Lunch with Jordan Lee</strong><span>Photo · Added 2 hours ago</span></div>
+              <div class="file-amount"><strong>$46.80</strong><span>Meals</span></div><span class="review-tag">Review</span>
+            </div>
+            <div class="document-row">
+              <div class="file-icon pdf">PDF</div><div class="file-info"><strong>Figma annual plan</strong><span>Figma, Inc. · Added yesterday</span></div>
+              <div class="file-amount"><strong>$144.00</strong><span>Software</span></div><span class="review-tag">Review</span>
+            </div>
+          </div>
+          <div class="inbox-footer"><span>✦ Tally found 3 documents to double-check</span><a href="#">Open inbox →</a></div>
+        </article>
+
+        <article class="panel drop-panel">
+          <div class="drop-content">
+            <div class="upload-art"><span class="paper paper-back">≋</span><span class="paper paper-front">＋</span></div>
+            <p class="eyebrow">LESS ADMIN, MORE YOU</p>
+            <h2>Drop it here.<br><em>We’ll sort it out.</em></h2>
+            <p class="drop-copy">Receipts, invoices, bills—Tally reads them, labels them, and files them for you.</p>
+            <button class="outline-button">Choose files ↗</button>
+            <small>PDF, JPG or PNG · Processed privately on your device</small>
+          </div>
+          <div class="drop-bottom">◇ Your files never leave this device</div>
+        </article>
+      </section>
+
+      <section class="panel recent-panel">
+        <div class="panel-heading">
+          <div><p class="eyebrow">ALL CAUGHT UP</p><h2>Recently sorted</h2></div>
+          <a class="text-link" href="#">See documents →</a>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>DOCUMENT</th><th>VENDOR</th><th>DATE</th><th>CATEGORY</th><th>AMOUNT</th></tr></thead>
+            <tbody>
+              <tr><td>Coworking day pass</td><td>Common Ground</td><td>Oct 12, 2026</td><td>Office</td><td>$32.00</td></tr>
+              <tr><td>Taxi to client meeting</td><td>CityCab</td><td>Oct 11, 2026</td><td>Travel</td><td>$24.50</td></tr>
+              <tr><td>Domain renewal</td><td>Namecheap</td><td>Oct 10, 2026</td><td>Software</td><td>$18.99</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>Made for the self-employed ♥</span>
+        <span>◇ Open model · Runs locally · Your data stays yours</span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>
